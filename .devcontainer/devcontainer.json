@@ -38,5 +38,6 @@
             ]
         }
     },
+    "onCreateCommand": "cp .env.example .env --no-clobber && php artisan key:generate",
     "remoteUser": "root"
 }
