@@ -38,6 +38,6 @@
             ]
         }
     },
-    "onCreateCommand": "cp .env.example .env --no-clobber && php artisan key:generate",
+    "onCreateCommand": "cp .env.example .env --no-clobber && composer install && php artisan key:generate",
     "remoteUser": "root"
 }
